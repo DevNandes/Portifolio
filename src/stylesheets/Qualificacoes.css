@@ -1,0 +1,172 @@
+@import url('./App.css');
+
+
+.section_qualificacoes .cabecalho {
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+
+.section_qualificacoes .cabecalho .titulo{
+    font-family: var(--font-inter);
+    font-size: 3.5rem;
+    max-width: 60rem;
+    margin: 0 auto;
+
+}
+
+.section_qualificacoes .bloco_button {
+    max-width: 60rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.section_qualificacoes .bloco_button .button {
+    width: 100%;
+    height: 6rem;
+    background-color: transparent;
+    color: #ccc;
+    font-family: var(--font-barlow);
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+    border-bottom: .1rem solid #ccc;
+    cursor: pointer;
+    transition: .3s all;
+}
+.section_qualificacoes .bloco_button .button:first-child {
+    border-right: .1rem solid #ccc;
+}
+
+.section_qualificacoes .bloco_button .ativo {
+    color: var(--ciano-default-color);
+    border-color: var(--ciano-default-color);
+}
+
+.section_qualificacoes .container_qualificacoes .lista, .lista_work {
+    max-width: 60rem;
+    margin: 0 auto;
+    animation: Up 0.8s;
+    position: relative;
+}
+
+.section_qualificacoes .container_qualificacoes #educacao::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #474747;
+}
+
+.section_qualificacoes .container_qualificacoes .lista .li{
+    width: 30rem;
+    padding: 1rem 2rem;
+    position: relative;
+    margin: 3rem 0;
+}
+
+.section_qualificacoes .container_qualificacoes .lista_work {
+    display: none;
+}
+
+.section_qualificacoes .container_qualificacoes .lista_work .item-work {
+    width: 100%;
+    border: .3rem solid var(--black-100);
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+.section_qualificacoes .container_qualificacoes .lista .rigth::after, .left::after {
+    content: '';
+    position: absolute;
+    top: 3rem;
+    right: -.5rem;
+    width: .8rem;
+    height: .8rem;
+    background-color: var(--ciano-default-color);
+    box-shadow: .1rem 0rem 1rem .1rem var(--ciano-default-color);
+    border-radius: 100%;
+}
+
+.left {
+    left: 50%;
+}
+
+.rigth {
+    right: 0rem;
+}
+
+.section_qualificacoes .container_qualificacoes .lista .li .header_qualificacoes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section_qualificacoes .container_qualificacoes .lista .li .header_qualificacoes .icon {
+    background-color: var(--blue-dark-color);
+    border-radius: 100%;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    color: var(--ciano-default-color);
+}
+
+.section_qualificacoes .container_qualificacoes .lista .item-work .header_qualificacoes .icon  {
+    background-color: var(--black-100);
+}
+
+.section_qualificacoes .container_qualificacoes .lista .li .header_qualificacoes .facul {
+    width: 15rem;
+}
+
+.section_qualificacoes .container_qualificacoes .lista .li .cargo {
+    font-family: var(--font-barlow);
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #818181;
+    margin: .4rem 0 2rem;
+}
+
+.section_qualificacoes .container_qualificacoes .lista .li .descricao {
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+.section_qualificacoes .container_qualificacoes .lista .li .conclusao {
+    font-family: var(--font-barlow);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #818181;
+    margin: 1rem 0 2rem 0;
+}
+.section_qualificacoes .container_qualificacoes .lista .li .conclusao i {
+    margin-right: .7rem;
+    color: var(--white);
+}
+
+.section_qualificacoes .container_qualificacoes .lista .li .button_certificado {
+    width: 100%;
+    height: 4rem;
+    background-color: transparent;
+    border: .1rem solid var(--ciano-default-color);
+    border-radius: .5rem;
+    color: var(--ciano-default-color);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.section_qualificacoes .container_qualificacoes .lista .li .button_certificado.true:hover {
+    transform: scale(1.1);
+}
+
+.section_qualificacoes .container_qualificacoes .lista .li .button-progresso {
+    color: #a6a6a6;
+    border-color: #a6a6a6;
+    cursor: not-allowed;
+}
+
+.section_qualificacoes .container_qualificacoes .lista_work .item-work .header_qualificacoes .circuibras {
+    mix-blend-mode: hard-light;
+    width: 40%;
+}
+

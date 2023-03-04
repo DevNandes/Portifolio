@@ -1,0 +1,103 @@
+@import url('./App.css');
+
+
+.section_projetos .titulo_projeto {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--ciano-default-color);
+    margin-bottom: 5rem;
+}
+
+.section_projetos .container_projetos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.section_projetos .container_projetos .card_projeto {
+    width: 45rem;
+    min-width: 31rem;
+    height: 25rem;
+    border: .2rem solid var(--black-100);
+    background-color: var(--black);
+    border-radius: .5rem;
+    position: relative;
+}
+
+.section_projetos .container_projetos .card_projeto .imagem_fundo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.section_projetos .container_projetos .card_projeto:hover .imagem_fundo {
+    opacity: .2;
+    transition: all .3s;
+}
+
+.section_projetos .container_projetos .card_projeto .card_descricao {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    opacity: 0;
+}
+
+.section_projetos .container_projetos .card_projeto:hover .card_descricao {
+    opacity: 1;
+    animation: Up 0.8s;
+}
+
+.section_projetos .container_projetos .card_projeto .card_descricao .titulo_card{
+    color: var(--white);
+    font-size: 2.4rem; 
+}
+
+.section_projetos .container_projetos .card_projeto .card_descricao .card_nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 2;
+}
+
+.section_projetos .container_projetos .card_projeto .card_descricao .card_nav .button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: .5rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+.section_projetos .container_projetos .card_projeto .card_descricao .card_nav .github {
+    background-color: rgb(166, 0, 255);
+}
+
+.section_projetos .container_projetos .card_projeto .card_descricao .card_nav .site {
+    background-color: var(--ciano-default-color);
+}
+
+.section_projetos .container_button {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.section_projetos .container_button .botao_github{
+    width: 30rem;
+    height: 4rem;
+    border-radius: .5rem;
+    background-color: transparent;
+    border: .1rem solid var(--ciano-default-color);
+    color: var(--ciano-default-color);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.section_projetos .container_button .botao_github:hover {
+    background-color: var(--ciano-default-color);
+    color: var(--black);
+}

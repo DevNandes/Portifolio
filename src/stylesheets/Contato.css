@@ -1,0 +1,68 @@
+@import url('./App.css');
+
+
+.section_contato {
+    margin-bottom: 10rem;
+}
+
+.section_contato .cabecalho_contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_contato .cabecalho_contato .titulo {
+    font-family: var(--font-inter);
+    font-size: 6rem;
+    letter-spacing: .2rem;
+    color: var(--ciano-default-color);
+    display: inline;
+    padding-right: 1rem;
+} 
+
+.section_contato .cabecalho_contato .descricao{
+    width: 100%;
+    max-width: 50rem;
+    color: var(--white);
+    margin: 1rem 0 2rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+} 
+
+.section_contato .lista_rede {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.section_contato .lista_rede .item_rede {
+    width: 30rem;
+    padding: 1rem;
+    border: .2rem solid var(--black-100);
+    height: 6rem;
+    border-radius: .5rem;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.section_contato .lista_rede .item_rede:hover {
+    transform: scale(1.1);
+}
+
+.section_contato .lista_rede .item_rede .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+    font-family: var(--font-inter);
+    color: var(--white);
+}
+
+.section_contato .lista_rede .item_rede .icon  {
+    font-size: 3rem;
+    color: var(--ciano-default-color);
+}

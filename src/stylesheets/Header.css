@@ -1,0 +1,89 @@
+@import url(./App.css);
+
+.header {
+    width: 100%;
+    height: 8rem;
+    z-index: 10000;
+    background-color: var(--black-100);
+    position: fixed;
+    top: 0;
+}
+
+.container_header {
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container_header .logo_header {
+    width: 18rem;
+    height: auto;
+}
+
+.container_header .menu_header .list_header {
+    width: 25rem;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background-color: var(--black-100);
+    position: absolute;
+    top: 7.1rem;
+    right: 1rem;
+    overflow-y: hidden;
+    transition: .7s;
+    z-index: 10;
+}
+
+.container_header .menu_header.active .list_header {
+    height: 40rem;
+    padding: 4rem;
+}
+
+.container_header .menu_header .list_header .iten_header .link_iten{
+    font-family: var(--font-inter);
+    font-size: 2rem;
+    color: var(--white);
+    transition: all .3s;
+}
+
+.container_header .menu_header .list_header .iten_header .link_iten:hover {
+    color: var(--ciano-default-color);
+}
+
+.container_header .menu_header .button_header {
+    font-size: 1.8rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container_header .menu_header .button_header .menu_icone-header {
+    border-top: .2rem solid;
+    display: block;
+    color: var(--white);
+}
+
+.container_header .menu_header .button_header .menu_icone-header::after, .menu_icone-header::before {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: .2rem;
+    background-color: currentColor;
+    margin-top: .5rem;
+    transition: .7s;
+    position: relative;
+}
+
+.container_header .menu_header.active .button_header .menu_icone-header {
+    border-top-color: transparent;
+}
+.container_header .menu_header.active .button_header .menu_icone-header::before {
+    transform: rotate(135deg);
+}
+.container_header .menu_header.active .button_header .menu_icone-header::after {
+    transform: rotate(-135deg);
+    top: -.7rem;
+}

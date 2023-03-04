@@ -1,0 +1,35 @@
+@import url('./App.css');
+
+.section_destaque {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background-color: var(--blue-dark-color);
+    padding: 3rem 0;
+    margin: 7rem 0;
+}
+
+.section_destaque .bloco_destaque {
+    width: 19rem;
+}
+.section_destaque .bloco_destaque .destaque_numero {
+    font-family: var(--font-inter);
+    font-weight: 900;
+    font-size: 6rem;
+    color: var(--ciano-default-color);
+}
+.section_destaque .bloco_destaque .numero {
+    font-family: var(--font-inter);
+    font-weight: 900;
+    font-size: 5rem;
+    letter-spacing: .1rem;
+    color: var(--white);
+}
+
+.section_destaque .bloco_destaque .destaque_descricao {
+    font-size: 1.7rem;
+    color: #b5b5b5;
+    font-weight: 600;
+    max-width: 20rem;
+}
