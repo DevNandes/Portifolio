@@ -81,3 +81,40 @@
     background-color: var(--ciano-default-color);
     color: var(--black);
 }
+
+@media (max-width: 1000px) {
+    .section_sobre .foto_perfil {
+        min-width: 35rem;
+        height: 35rem;
+        margin-bottom: 5rem;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .section_sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section_sobre .container_sobre .container_button {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .section_sobre .foto_perfil {
+        display: none;
+    }
+    .section_sobre .container_sobre .titulo_sobre{
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .section_sobre .container_sobre .titulo_sobre {
+        font-size: 2rem;
+    }
+}

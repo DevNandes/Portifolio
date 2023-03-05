@@ -85,3 +85,33 @@
 .section_main .navigation_main .list_main .iten_main .link .icons:hover {
     color: var(--ciano-default-color);
 }
+
+@media (max-width: 900px) {
+    .section_main .container_main .titulo_main {
+        font-size: 3rem;
+
+    }
+    .section_main .container_main .cargo_main {
+        font-size: 5rem;
+    }
+}
+
+
+@media (max-width: 620px) {
+    .section_main .container_main .cargo_main {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .section_main .container_main .descricao_main {
+        font-size: 2.2rem;
+    }
+    .section_main .container_main .cargo_main {
+        font-size: 2.8rem;
+    } 
+    .section_main .container_main .descricao_main {
+        font-size: 1.4rem;
+        max-width: 90%;
+    }
+}

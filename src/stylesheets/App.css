@@ -48,116 +48,12 @@ body {
 
 
 
-@media (min-width: 621px) { 
-    .section_qualificacoes .container_qualificacoes .lista .left::after {
-        content: '';
-        left: -.3rem;
-    }
-}
-
-@media (max-width: 1000px) {
-    .section_sobre .foto_perfil {
-        min-width: 35rem;
-        height: 35rem;
-        margin-bottom: 5rem;
-    }
-    .section_projetos .container_projetos {
-        flex-wrap: wrap;
-    }
-}
-
-@media (max-width: 900px) {
-    .section_main .container_main .titulo_main {
-        font-size: 3rem;
-
-    }
-    .section_main .container_main .cargo_main {
-        font-size: 5rem;
-    }
-    .section_sobre {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .section_sobre .container_sobre .container_button {
-        width: 100%;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 790px) {
-    .section_servico .container_servico {
-        justify-content: center;
-    }
-    .section_servico .cabecalho_servico .titulo {
-        width: 100%; 
-        margin: 0 auto;
-        text-align: center;
-        border: none;
-    }
-    .section_servico .cabecalho_servico .descricao {
-        display: none;
-    }
-}
-@media (max-width: 620px) {
-    .section_main .container_main .cargo_main {
-        font-size: 3.5rem;
-    }
-    .section_sobre .foto_perfil {
-        display: none;
-    }
-    .section_sobre .container_sobre .titulo_sobre{
-        font-size: 2.3rem;
-    }
-    .section_destaque .bloco_destaque .destaque_descricao {
-        text-align: center;
-    }
-    .section_qualificacoes .container_qualificacoes {
-        width: 31rem;
-        margin: 0 auto;
-    }
-    .section_qualificacoes .container_qualificacoes #educacao::before {
-        left: -.7rem;
-    }
-    .section_qualificacoes .container_qualificacoes #educacao li {
-        margin-right: 0;
-        left: 0;
-    }
-    .section_qualificacoes .container_qualificacoes .lista li::after {
-        left: -1rem;
-    }
-
-}
 @media (max-width: 430px) {
     html {
         font-size: 60%;
     }
-    .section_main .container_main .descricao_main {
-        font-size: 2.2rem;
-    }
-    .section_main .container_main .cargo_main {
-        font-size: 2.8rem;
-    } 
-    .section_main .container_main .descricao_main {
-        font-size: 1.4rem;
-        max-width: 90%;
-    }
-    .section_sobre .container_sobre .titulo_sobre {
-        font-size: 2rem;
-    }
-    .section_contato .cabecalho_contato .titulo {
-        font-size: 4.2rem;
-    }
-    .section_qualificacoes .cabecalho .titulo {
-        font-size: 2.8rem;
-    }
-    .section_qualificacoes .container_qualificacoes .lista_work .item-work  {
-        width: 30rem;
-    }
-    .section_servico .cabecalho_servico .titulo {
-        font-size: 2.9rem;
-    }
 }
+
 @keyframes Up {
     from {
         opacity: 0;

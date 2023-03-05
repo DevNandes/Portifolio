@@ -66,3 +66,9 @@
     font-size: 3rem;
     color: var(--ciano-default-color);
 }
+
+@media (max-width: 430px) {
+    .section_contato .cabecalho_contato .titulo {
+        font-size: 4.2rem;
+    }
+}

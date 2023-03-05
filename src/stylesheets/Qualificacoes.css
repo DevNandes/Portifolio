@@ -170,3 +170,37 @@
     width: 40%;
 }
 
+@media (min-width: 621px) { 
+    .section_qualificacoes .container_qualificacoes .lista .left::after {
+        content: '';
+        left: -.3rem;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .section_qualificacoes .container_qualificacoes {
+        width: 31rem;
+        margin: 0 auto;
+    }
+    .section_qualificacoes .container_qualificacoes #educacao::before {
+        left: -.7rem;
+    }
+    .section_qualificacoes .container_qualificacoes #educacao li {
+        margin-right: 0;
+        left: 0;
+    }
+    .section_qualificacoes .container_qualificacoes .lista li::after {
+        left: -1rem;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .section_qualificacoes .cabecalho .titulo {
+        font-size: 2.8rem;
+    }
+    .section_qualificacoes .container_qualificacoes .lista_work .item-work  {
+        width: 30rem;
+    }
+}

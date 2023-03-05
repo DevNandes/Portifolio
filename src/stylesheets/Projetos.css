@@ -101,3 +101,9 @@
     background-color: var(--ciano-default-color);
     color: var(--black);
 }
+
+@media (max-width: 1000px) {
+    .section_projetos .container_projetos {
+        flex-wrap: wrap;
+    }
+}

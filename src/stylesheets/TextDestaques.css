@@ -24,3 +24,11 @@
     font-weight: 600;
     max-width: 20rem;
 }
+
+
+@media (max-width: 620px) {
+
+    .section_destaque .bloco_destaque .destaque_descricao {
+        text-align: center;
+    }
+}
