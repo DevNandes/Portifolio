@@ -1,4 +1,5 @@
 import '../stylesheets/Conhecimentos.css'
+import { ImageText } from './ImageText'
 
 export const Conhecimentos = () => {
 
@@ -6,34 +7,13 @@ export const Conhecimentos = () => {
         <section className="section_tech" id="conhecimento">
             <h2 className="titulo_tech">Conhecimento</h2>
             <div className="container_tech">
-                <div className="bloco_tech">
-                    <i className="fa-brands fa-html5"></i>
-                    <p className="nome_tech">Html 5</p>
-                </div>
-                <div className="bloco_tech">
-                    <i className="fa-brands fa-css3-alt"></i>
-                    <p className="nome_tech">Css 3</p>
-                </div>
-                <div className="bloco_tech">
-                    <i className="fa-brands fa-bootstrap"></i>
-                    <p className="nome_tech">BootStrap</p>
-                </div>
-                <div className="bloco_tech">
-                    <i className="fa-brands fa-square-js"></i>
-                    <p className="nome_tech">JavaScript</p>
-                </div>
-                <div className="bloco_tech">
-                    <i className="fa-brands fa-react"></i>
-                    <p className="nome_tech">React</p>
-                </div>
-                <div className="bloco_tech">
-                    <i className="fa-brands fa-git"></i>
-                    <p className="nome_tech">Git</p>
-                </div>
-                <div className="bloco_tech">
-                    <i className="fa-brands fa-github"></i>
-                    <p className="nome_tech">GitHub</p>
-                </div>
+                <ImageText class='fa-brands fa-html5' name='HTML 5'/>
+                <ImageText class='fa-brands fa-css3-alt' name='Css 3' />
+                <ImageText class='fa-brands fa-bootstrap' name='BootStrap' />
+                <ImageText class='fa-brands fa-square-js' name='JavaScript' />
+                <ImageText class='fa-brands fa-react' name='React' />
+                <ImageText class='fa-brands fa-git' name='Git' />
+                <ImageText class='fa-brands fa-github' name='GitHub' />
             </div>
         </section>
     )

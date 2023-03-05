@@ -14,33 +14,3 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.section_tech .container_tech .bloco_tech {
-    width: 29.7rem;
-    height: 6rem;
-    border-radius: .5rem;
-    background-color: var(--black-100);
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding-left: 2rem;
-}
-
-.section_tech .container_tech .bloco_tech i{
-    font-size: 3rem;
-    color: var(--ciano-default-color);
-}
-
-.section_tech .container_tech .bloco_tech .tailwind {
-    background-color: var(--ciano-default-color);
-    padding: .3rem;
-    border-radius: .5rem;
-}
-
-.section_tech .container_tech .bloco_tech .typescript, .node {
-    width: 4rem;
-}
-
-.section_tech .container_tech .bloco_tech .nome_tech{
-    color: #ccc;
-}
