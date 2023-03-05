@@ -4,6 +4,7 @@ import logo_industria from '../imagens/logo-faculdadesdaindustria.svg';
 import uninter from '../imagens/uninter.png';
 import alura from '../imagens/alura-logo.svg';
 import circuibras from '../imagens/Circuibras.png';
+import certificado_alura from '../document/Certificado Alura.pdf'
 
 export class Qualificacoes extends Component {
 
@@ -116,7 +117,7 @@ export class Qualificacoes extends Component {
                             <p className="cargo">Desenvolvimento Front-end</p>
                             <p className="descricao">Iniciei meus estudos como desenvolvedor front-end na alura, no qual eu aprendi a base e conceitos importantes. Nessa trajetória me aprofundei em tecnologias como HTML, CSS.</p>
                             <p className="conclusao"><i className="fa-regular fa-calendar-days"></i> 2023-2024</p>
-                            <a href="document/Certificado Alura.pdf" className="link" download="Certificado Alura" aria-label="Certificado Alura">
+                            <a href={certificado_alura} className="link" download="Certificado Alura" aria-label="Certificado Alura">
                                 <button className="button_certificado true" aria-label="Visualizar certificado">Visualizar certificado</button>
                             </a>
                         </li>
