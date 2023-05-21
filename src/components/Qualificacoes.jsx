@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import '../stylesheets/Qualificacoes.css';
-import logo_industria from '../imagens/logo-faculdadesdaindustria.svg';
+import unisenaipr from '../imagens/unisenaipr.jpg';
 import uninter from '../imagens/uninter.png';
 import alura from '../imagens/alura-logo.svg';
 import circuibras from '../imagens/Circuibras.png';
@@ -88,7 +88,7 @@ export class Qualificacoes extends Component {
                             <div className="header_qualificacoes">
                                 <i className="fa-solid fa-graduation-cap icon"></i>
                                 <img
-                                src={logo_industria}
+                                src={unisenaipr}
                                 alt="Faculdade das indstrias"
                                 className="curso"
                                 style={{ width: "15rem" }}
