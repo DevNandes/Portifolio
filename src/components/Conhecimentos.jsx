@@ -14,7 +14,6 @@ export const Conhecimentos = () => {
                 <ImageText class='fa-brands fa-react' name='React' />
                 <ImageText class='fa-brands fa-git' name='git' />
                 <ImageText class='fa-brands fa-github' name='GitHub' />
-                <ImageText class='fa-brands fa-sql' name='SQL' />
                 <ImageText class='fa-brands fa-python' name='Python' />
             </div>
         </section>
