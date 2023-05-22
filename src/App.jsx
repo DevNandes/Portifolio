@@ -6,7 +6,6 @@ import { Destaques } from './components/Destaques';
 import { Qualificacoes } from './components/Qualificacoes';
 import { Servicos } from './components/Servicos';
 import { Conhecimentos } from './components/Conhecimentos';
-import { Projetos } from './components/Projetos';
 import { Contato } from './components/Contato';
 import { BotaoVoltar } from './components/BotaoVoltar';
 import { Footer } from './components/Footer';
@@ -21,7 +20,6 @@ function App() {
       <Qualificacoes />
       <Servicos />
       <Conhecimentos />
-      <Projetos />
       <Contato />
       <BotaoVoltar />
       <Footer />

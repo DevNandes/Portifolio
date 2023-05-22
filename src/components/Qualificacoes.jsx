@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import '../stylesheets/Qualificacoes.css';
-import logo_industria from '../imagens/logo-faculdadesdaindustria.svg';
+import unisenaipr from '../imagens/unisenaipr.jpg';
 import uninter from '../imagens/uninter.png';
 import alura from '../imagens/alura-logo.svg';
 import circuibras from '../imagens/Circuibras.png';
@@ -88,8 +88,8 @@ export class Qualificacoes extends Component {
                             <div className="header_qualificacoes">
                                 <i className="fa-solid fa-graduation-cap icon"></i>
                                 <img
-                                src={logo_industria}
-                                alt="Faculdade das indstrias"
+                                src={unisenaipr}
+                                alt="UniSenaiPR"
                                 className="curso"
                                 style={{ width: "15rem" }}
                                 />
@@ -126,15 +126,17 @@ export class Qualificacoes extends Component {
                         <li className="li item-work">
                             <div className="header_qualificacoes">
                                 <i className="fa-solid fa-briefcase icon"></i>
-                                <img src={circuibras} alt="Plataforma de intermédio Woarkana" className="curso circuibras" />
+                                <img src={circuibras} alt="Circuibras Circuitos Impressos" className="curso circuibras" />
                             </div>
-                            <p className="cargo">Atuo como Estagiario Desenvolvedor</p>
-                            <p className="descricao">Elaboração de relatórios utilizando o sistema de preparação de documentos "LaTeX";</p>
-                            <p className="descricao">Desenvolvimento de interfaces web utilizando Javascript, HTML e CSS para uso interno da empresa;</p>
-                            <p className="descricao">Desenvolvimento de aplicativos utilizando a biblioteca React, também para uso interno;</p>
-                            <p className="descricao">Utilização de Git para gerenciamento de versões e controle de projetos;</p>
-                            <p className="descricao">Uso do Visual Studio Code como editor de código fonte.</p>
-                            <p className="conclusao"><i className="fa-regular fa-calendar-days"></i> 2022 - Outubro / Atualmente ( 6 Meses de duração )</p>
+                            <p className="cargo">Atuo como Estagiario Desenvolvedor Full-Stack</p>
+                            <p className="descricao">Elaboração de relatórios utilizando LaTeX para preparação de documentos;</p>
+                            <p className="descricao">Desenvolvimento de interfaces web utilizando JavaScript, HTML e CSS para uso interno da empresa;</p>
+                            <p className="descricao">Criação e manutenção de aplicações utilizando a biblioteca React para atender às necessidades internas;</p>
+                            <p className="descricao">Desenvolvimento de API's em JavaScript e Python para integração de dados;</p>
+                            <p className="descricao">Trabalho com bancos de dados MySQL para controle e gerenciamento dos dados do aplicativo interno;</p>
+                            <p className="descricao">Utilização do git para gerenciamento de versionamento e controle de projetos;</p>
+                            <p className="descricao">Utilização do Visual Studio Code como editor de código fonte.</p>
+                            <p className="conclusao"><i className="fa-regular fa-calendar-days"></i> 2022 - Outubro / Atualmente ( 8 Meses de duração )</p>
                         </li>
                     </ul>
                 </div>
