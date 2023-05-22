@@ -89,7 +89,7 @@ export class Qualificacoes extends Component {
                                 <i className="fa-solid fa-graduation-cap icon"></i>
                                 <img
                                 src={unisenaipr}
-                                alt="Faculdade das indstrias"
+                                alt="UniSenaiPR"
                                 className="curso"
                                 style={{ width: "15rem" }}
                                 />
@@ -126,7 +126,7 @@ export class Qualificacoes extends Component {
                         <li className="li item-work">
                             <div className="header_qualificacoes">
                                 <i className="fa-solid fa-briefcase icon"></i>
-                                <img src={circuibras} alt="Plataforma de intermédio Woarkana" className="curso circuibras" />
+                                <img src={circuibras} alt="Circuibras Circuitos Impressos" className="curso circuibras" />
                             </div>
                             <p className="cargo">Atuo como Estagiario Desenvolvedor Full-Stack</p>
                             <p className="descricao">Elaboração de relatórios utilizando LaTeX para preparação de documentos;</p>
